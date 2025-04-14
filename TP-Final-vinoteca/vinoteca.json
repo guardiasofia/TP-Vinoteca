@@ -1,0 +1,169 @@
+{
+  "bodegas": [
+    { "id": "a0117be3-2ea6-8db1-8901-1be2adf61c29", "nombre": "La Iride" },
+    {
+      "id": "a0900e61-0f72-67ae-7e9d-4218da29b7d8",
+      "nombre": "Casa La Primavera Bodegas y Vineedos"
+    },
+    {
+      "id": "7a023493-c091-b352-40c2-d6c9da450d1e",
+      "nombre": "Bodega Sottano"
+    },
+    {
+      "id": "ffaa2acb-b07e-7111-f02d-6ce9c72fbd62",
+      "nombre": "Escorihuela Gascon"
+    },
+    {
+      "id": "aa6af203-2f63-4fa8-40ff-3f77af062df8",
+      "nombre": "Escandalosos Wine"
+    },
+    {
+      "id": "cd32d0ab-1da5-7d5e-caff-f90bbee6fe7f",
+      "nombre": "Rutini Wines"
+    },
+    {
+      "id": "e45cf923-3843-91a3-90df-879c8269c5fc",
+      "nombre": "Proyecto Malbec"
+    }
+  ],
+  "cepas": [
+    { "id": "33ccaa9d-4710-9942-002d-1b5cb9912e5d", "nombre": "Chardonnay" },
+    {
+      "id": "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+      "nombre": "Cabernet Suavignon"
+    },
+    { "id": "e076a2c8-b1f5-136e-8319-0ee0b5c02091", "nombre": "Malbec" },
+    { "id": "b80905e3-1839-3194-301b-c5fddafc888c", "nombre": "Merlot" }
+  ],
+  "vinos": [
+    {
+      "id": "54919dcb-7ada-70ee-db7d-605650ee41f7",
+      "nombre": "La Iride",
+      "bodega": "a0117be3-2ea6-8db1-8901-1be2adf61c29",
+      "cepas": [
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2023, 2022, 2021]
+    },
+    {
+      "id": "4823ad54-0a3a-38b8-adf6-795512994a4f",
+      "nombre": "Abducido",
+      "bodega": "a0117be3-2ea6-8db1-8901-1be2adf61c29",
+      "cepas": [
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091"
+      ],
+      "partidas": [2024, 2023, 2022]
+    },
+    {
+      "id": "0abbab7c-698a-c542-a67c-7b30cc0a759c",
+      "nombre": "Danza con Lobos",
+      "bodega": "aa6af203-2f63-4fa8-40ff-3f77af062df8",
+      "cepas": [
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2023]
+    },
+    {
+      "id": "109f6002-735b-b58a-66e0-94d62e0dc5fd",
+      "nombre": "Motociclista",
+      "bodega": "aa6af203-2f63-4fa8-40ff-3f77af062df8",
+      "cepas": [
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2023]
+    },
+    {
+      "id": "51461f52-89b8-d702-0673-2cc5ac75085c",
+      "nombre": "Escandalosos",
+      "bodega": "aa6af203-2f63-4fa8-40ff-3f77af062df8",
+      "cepas": [
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2023, 2022]
+    },
+    {
+      "id": "2c28762a-3fc9-a5f6-7d23-fd3fca58d8fd",
+      "nombre": "Profugo",
+      "bodega": "a0900e61-0f72-67ae-7e9d-4218da29b7d8",
+      "cepas": [
+        "33ccaa9d-4710-9942-002d-1b5cb9912e5d",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091"
+      ],
+      "partidas": [2022]
+    },
+    {
+      "id": "fe8f3645-27c6-4fbe-5113-a4ab40a1834b",
+      "nombre": "Oveja Black",
+      "bodega": "a0900e61-0f72-67ae-7e9d-4218da29b7d8",
+      "cepas": [
+        "33ccaa9d-4710-9942-002d-1b5cb9912e5d",
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091"
+      ],
+      "partidas": [2022]
+    },
+    {
+      "id": "205db14f-c0c0-a286-0a5e-0daa7a3f37f0",
+      "nombre": "Sin Palabra",
+      "bodega": "a0900e61-0f72-67ae-7e9d-4218da29b7d8",
+      "cepas": [
+        "33ccaa9d-4710-9942-002d-1b5cb9912e5d",
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2022, 2021, 2020]
+    },
+    {
+      "id": "c0b72697-1295-b366-0dd7-d473cb35f0cf",
+      "nombre": "Sottano",
+      "bodega": "7a023493-c091-b352-40c2-d6c9da450d1e",
+      "cepas": [
+        "33ccaa9d-4710-9942-002d-1b5cb9912e5d",
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2022, 2021]
+    },
+    {
+      "id": "7b5b066a-1a52-2639-5866-62ac13e3ec5f",
+      "nombre": "Alma Bohemia",
+      "bodega": "e45cf923-3843-91a3-90df-879c8269c5fc",
+      "cepas": [
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2023, 2021]
+    },
+    {
+      "id": "ea3d6c45-e747-2e86-ddf8-0746cc13f21c",
+      "nombre": "Familia Gascon",
+      "bodega": "ffaa2acb-b07e-7111-f02d-6ce9c72fbd62",
+      "cepas": [
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091",
+        "b80905e3-1839-3194-301b-c5fddafc888c"
+      ],
+      "partidas": [2020, 2021]
+    },
+    {
+      "id": "2cbd24a5-cba2-a852-4c0f-8f1ba49c81ae",
+      "nombre": "Trumpeter",
+      "bodega": "cd32d0ab-1da5-7d5e-caff-f90bbee6fe7f",
+      "cepas": [
+        "b065c64b-fc96-cf13-2d52-d7a6ba373c68",
+        "e076a2c8-b1f5-136e-8319-0ee0b5c02091"
+      ],
+      "partidas": [2019, 2022]
+    }
+  ]
+}
