@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🍷 TP Final - API REST para Gestión de Vinoteca
 
 Trabajo Final de la materia **Programación II**  
